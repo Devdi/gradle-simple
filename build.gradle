@@ -2,6 +2,6 @@ apply plugin: 'java'
 
 task hello {
 	doLast {
-		println 'Hello world'
+		println "Hello ${project.name}"
 	}
 }
