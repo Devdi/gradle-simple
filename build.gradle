@@ -1,7 +1,5 @@
 apply plugin: 'java'
 
-task hello {
-	doLast {
-		println "Hello ${greeting}"
-	}
+repositories {
+	jcenter()
 }
